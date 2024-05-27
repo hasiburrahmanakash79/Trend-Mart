@@ -1,4 +1,5 @@
 import { FaCartShopping } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -32,7 +33,7 @@ const Navbar = () => {
               </div>
             </div>
             <FaCartShopping className="text-2xl" />
-            <button className="btn btn-success btn-sm text-white">Login</button>
+            <Link to='/login' className="btn btn-success btn-sm text-white">Login</Link>
           </div>
         </div>
       </div>

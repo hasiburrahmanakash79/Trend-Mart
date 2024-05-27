@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const Hero = () => {
 
-    const interval = 2500 
+    const interval = 3000 
 
     const images = [
         'https://images.unsplash.com/photo-1624395149011-470cf6f6ec02?q=80&w=2851&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -33,7 +33,7 @@ const Hero = () => {
       {images.map((image, index) => (
         <div
           key={index}
-          className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
+          className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ${
             index === currentIndex ? 'opacity-100' : 'opacity-0'
           }`}
         >
