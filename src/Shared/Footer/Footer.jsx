@@ -37,7 +37,7 @@ import {
             </div>
           </div>
         </div>
-        <div className="bg-blue-gray-50 grid md:grid-cols-6 grid-cols-2 place-items-center text-sm text-center">
+        <div className="bg-white grid md:grid-cols-6 grid-cols-2 place-items-center text-sm text-center">
           <Link to="/" className="hover:underline p-3">
             Contact
           </Link>

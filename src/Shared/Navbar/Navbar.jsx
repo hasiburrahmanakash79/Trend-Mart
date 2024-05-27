@@ -2,8 +2,8 @@ import { FaCartShopping } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <div className="w-full fixed top-0 ">
-      <div className="border-b-2 p-2 bg-white">
+    <div className="w-full fixed top-0 z-50">
+      <div className=" p-2 bg-white shadow-xl">
         <div className="grid md:grid-cols-3 grid-cols-2 justify-between items-center container mx-auto">
           <div className="">
             <span className="">
@@ -27,7 +27,7 @@ const Navbar = () => {
           </label>
           <div className="flex items-center justify-end gap-5">
             <div className="avatar">
-              <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-1">
+              <div className="w-8 rounded-full ring-2 ring-primary ring-offset-base-100 ring-offset-2">
                 <img src="https://docs.material-tailwind.com/img/face-2.jpg" />
               </div>
             </div>
