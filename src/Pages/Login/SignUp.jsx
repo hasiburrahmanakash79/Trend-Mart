@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
+import SocialLogin from "../../Components/SocialLogin";
 
 const SignUp = () => {
   const [passShow, setPassShow] = useState(false);
@@ -184,15 +185,14 @@ const SignUp = () => {
                 className="input input-bordered"
               />
             </div>
-            <div className="form-control mt-1">
+            <div className="form-control mt-5">
               <button className="btn btn-warning">Sign Up</button>
             </div>
           </form>
           <div className="px-5 text-center">
-            <div className="divider mt-0 "></div>
             <p className="font-semibold">Or Sign In with</p>
             <div className="flex items-center justify-center gap-4 my-2">
-              {/* <SocialLogin></SocialLogin> */}
+              <SocialLogin/>
             </div>
           </div>
           <div className="text-center mb-7">

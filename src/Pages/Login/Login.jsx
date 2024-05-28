@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import SocialLogin from "../../Components/SocialLogin";
 
 const Login = () => {
   const [passShow, setPassShow] = useState(false);
@@ -74,15 +75,14 @@ const Login = () => {
             </div>
             
           </div>
-          <div className="form-control mt-1">
+          <div className="form-control mt-5">
             <button className="btn btn-warning">Login</button>
           </div>
         </form>
         <div className="text-center mb-7 px-5">
-          <div className="divider"></div>
           <p className="font-semibold">Or Sign In with</p>
           <div className="flex items-center justify-center gap-4 my-2">
-            {/* <SocialLogin></SocialLogin> */}
+            <SocialLogin/>
           </div>
           <Link to="/signUp">
             Do not have an account?{" "}
