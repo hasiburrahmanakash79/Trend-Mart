@@ -36,7 +36,7 @@ const Login = () => {
   };
 
   return (
-    <div className="grid grid-cols-2 gap-10 items-center container mx-auto">
+    <div className="grid grid-cols-2 gap-10 items-center container mx-auto min-h-screen">
       <img src="https://i.ibb.co/3TB6snz/scratch-bd-main-logo.png" alt="" />
       <div className="w-full mx-auto border rounded-xl">
         <form onSubmit={handleSubmit(onSubmit)} className="card-body ">
@@ -86,7 +86,7 @@ const Login = () => {
           </div>
           <Link to="/signUp">
             Do not have an account?{" "}
-            <span className="text-blue-500 font-bold">SignUp</span>{" "}
+            <span className="text-blue-600 font-bold">SignUp</span>{" "}
           </Link>
         </div>
       </div>
