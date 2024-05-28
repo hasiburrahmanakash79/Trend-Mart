@@ -37,9 +37,9 @@ const Login = () => {
 
   return (
     <div className="grid grid-cols-2 gap-10 items-center container mx-auto min-h-screen">
-      <img src="https://i.ibb.co/3TB6snz/scratch-bd-main-logo.png" alt="" />
-      <div className="w-full mx-auto border rounded-xl">
-        <form onSubmit={handleSubmit(onSubmit)} className="card-body ">
+      <img src="https://i.ibb.co/3TB6snz/scratch-bd-main-logo.png" className="w-2/3 mx-auto" alt="" />
+      <div className="w-full mx-auto border shadow-xl rounded-xl">
+        <form onSubmit={handleSubmit(onSubmit)} className="card-body">
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>

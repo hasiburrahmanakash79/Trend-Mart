@@ -68,7 +68,7 @@ const SignUp = () => {
         <div className="">
         <img src="https://i.ibb.co/3TB6snz/scratch-bd-main-logo.png" alt="" />
         </div>
-        <div className="border rounded-lg bg-base-100">
+        <div className="border rounded-lg shadow-xl bg-base-100">
           <form onSubmit={handleSubmit(onSubmit)} className="card-body">
             <div className="md:grid grid-cols-2 gap-3">
               <div className="form-control">
